@@ -1,0 +1,117 @@
+p {
+
+}
+
+body {
+	background-color: #F8F8F8;
+}
+
+
+b{
+	background-color:#bffcfc;
+
+}
+
+
+#title {
+	font-family: "Arial";
+	font-size: 30px;
+	margin-top:100px;
+	margin-bottom: 60px;
+	
+	width:350px;
+	margin-left:auto;
+	margin-right:auto;
+
+	background-color:white;
+
+}
+
+
+
+#main_wrapper {
+	height:165px;
+	width:700px;
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#D8D8D8;
+	
+
+}
+
+
+#subtitle {
+	font-family: "Arial";
+	font-variant:"Italic";
+	font-size: 20px;
+
+	margin-top:50px;
+	
+	
+	width:350px;
+	margin-left:auto;
+	margin-right:auto;
+
+	background-color:none;
+
+
+}
+
+#search_wrapper {
+	width:100%;
+	margin: auto;
+	margin-top:auto;
+	text-align: center;
+	
+}
+
+#button {
+	
+	width:27%;
+	margin-top:10px;
+
+
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	border-radius: 0px;
+
+}
+
+.txtfield {
+
+width:27%;
+margin: 20px 10px 20px 10px;
+font-size: 15px;
+
+
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+-o-border-radius: 0px;
+border-radius: 0px;
+}
+
+/*form {
+	position: fixed;
+	text-align: center;
+	right:100px;
+	left: 100px;
+	top: 200px;
+	width: 1000px;
+	margin: auto;
+}*/
+
+
+
+@font-face {
+font-family: Kelvetica;
+src: url("fonts/Kelvetica.otf") format("opentype");
+}
+
+
+
+ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus { 
+border-color: rgba(0, 0, 0, 0.3);
+box-shadow: 0 0 0 rgba(0, 0, 0, 0.075) inset, 0 0 0 rgba(0, 0, 0, 0.6);
+outline: 0 none;}
