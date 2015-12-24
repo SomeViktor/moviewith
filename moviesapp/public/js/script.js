@@ -1,4 +1,4 @@
-var j= '[["John Travolta", "Samuel L. Jackson"],["Kristen Stewart", "Robert Pattison"],["somebody", "bla"],["nana", "mamama"]]';
+var j= '[["John Travolta", "Samuel L. Jackson"],["Kristen Stewart", "Robert Pattison", " (shitty)"],["Mark Hamill", "Carrie Fisher"],["Anthony Perkins", "Vera Miles"]]';
 var i = 1;
 var jobject = JSON.parse(j);
 
@@ -7,9 +7,13 @@ setInterval(updateNames, 3000);
 
 var i = 0;
 function updateNames (){
-
+    document.getElementById('ad1').innerHTML = "";  
 	document.getElementById('a1').innerHTML = jobject[i][0];
 	document.getElementById('a2').innerHTML = jobject[i][1];
+    if(jobject[i][2]){
+      document.getElementById('ad1').innerHTML = jobject[i][2];  
+
+    }
 	i++;
 	if(i==4){
 		i=0;

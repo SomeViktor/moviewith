@@ -10,8 +10,9 @@ router.get('/', function(req, res, next) {
 router.get('/suggestions', function(req, res, next) {
   console.log("got request");
   var response =[];
-  response.push("John Travolta");
-  response.push("John Travolta");
+  response.push(req["content"]);
+  //response.push("John Travolta");
+  //response.push("John Travolta");
   res.json(response);
 });
 
