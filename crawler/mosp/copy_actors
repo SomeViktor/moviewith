@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm ../../moviesapp/public/data/actors.json
+
+cp actors.json ../../moviesapp/public/data/actors.json
