@@ -30,12 +30,13 @@ b{
 
 
 #main_wrapper {
-	height:165px;
+	
 	width:700px;
 	margin-top:50px;
 	margin-left:auto;
 	margin-right:auto;
 	background-color:#D8D8D8;
+	padding-top:30px;
 	
 
 }
@@ -59,19 +60,25 @@ b{
 }
 
 #search_wrapper {
-	width:100%;
-	margin: auto;
-	margin-top:auto;
-	text-align: center;
+width:90%;
+margin:auto;
+border-radius: 4px;
+
 	
 }
 
+#result_header{
+	font-size: 20px;
+	background-color:white;
+
+}
+
+
 #button {
 	
-	width:27%;
-	margin-top:10px;
-
-
+	width:29.5%;
+	height:40px;
+	margin:20px 32%;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	-o-border-radius: 0px;
@@ -81,15 +88,30 @@ b{
 
 .txtfield {
 
-width:27%;
-margin: 20px 10px 20px 10px;
+width:100%;
+margin: 40px 10px 20px 10px;
 font-size: 15px;
-
+background-color: white;
 
 -webkit-border-radius: 0px;
 -moz-border-radius: 0px;
 -o-border-radius: 0px;
 border-radius: 0px;
+}
+
+#in1{
+
+	background-color: white;
+	height:50px;
+
+
+
+}
+
+input{
+	background-color: white;
+	font-size: 25px;
+
 }
 
 /*form {

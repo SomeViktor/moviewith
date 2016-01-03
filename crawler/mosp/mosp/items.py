@@ -12,6 +12,7 @@ class Movie(scrapy.Item):
  	title = scrapy.Field();
  	director = scrapy.Field();
  	release_year = scrapy.Field();
+ 	actors = scrapy.Field();
  	#and some set with actors. Maybe a string? => manual
 
 

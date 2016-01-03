@@ -17,7 +17,7 @@ NEWSPIDER_MODULE = 'mosp.spiders'
 LOG_LEVEL='INFO' 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'mosp (+http://www.yourdomain.com)'
+#USER_AGENT = 'mosp (+http://blabla)'
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS=32
@@ -62,9 +62,9 @@ LOG_LEVEL='INFO'
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'mosp.pipelines.SomePipeline': 300,
-#}
+ITEM_PIPELINES = {
+    'mosp.pipelines.Pipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See http://doc.scrapy.org/en/latest/topics/autothrottle.html
